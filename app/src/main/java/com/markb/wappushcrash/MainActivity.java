@@ -55,11 +55,11 @@ public class MainActivity extends Activity {
         // the window background through it. Set window+root background to gray so the
         // status bar reads gray, making the signal-bar/no-service indicator obvious
         // when com.android.phone dies after the WAP Push.
-        getWindow().getDecorView().setBackgroundColor(0xFFB0B0B0);
+        getWindow().getDecorView().setBackgroundColor(0xFF000000);
 
         LinearLayout root = new LinearLayout(this);
         root.setOrientation(LinearLayout.VERTICAL);
-        root.setBackgroundColor(0xFFB0B0B0);
+        root.setBackgroundColor(0xFF000000);
         root.setPadding(48, 480, 48, 48);
 
         TextView destLabel = new TextView(this);
